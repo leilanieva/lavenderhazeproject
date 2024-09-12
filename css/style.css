@@ -26,22 +26,22 @@ h3{
     color: #624E88;
 }
  
-/*selector por ID*/
-#shopText{  
+/*selector por clase*/
+.shopText{  
     font-size:x-large; 
     font-family: "dosis";
     font-style: italic;
     text-align: center;
     color: #627254;
 }
-#aboutUs{   
+.aboutUs{   
     font-size:x-large; 
     font-family: "dosis";
     font-style: italic;
     text-align: center;
     color: #627254;
 }
-#mainText {
+.textIndex {
     line-height:100px;
     text-align:justify;
     font-size:x-large; 
@@ -50,7 +50,7 @@ h3{
     text-align: center;
     color: #627254;
 }
-#contactoText{   
+.contactoText{   
     text-align: center;
 }
 
