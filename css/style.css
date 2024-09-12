@@ -120,6 +120,9 @@ footer{
     border: 1px solid #627254;
     border-radius: 8px; 
 }
+.bg-light{  
+    background-color: #ffffff;
+}
 
 /*media queries*/
 
@@ -130,11 +133,18 @@ footer{
         border-style:solid
 
     }
-    .galeríaImg{    
+    .grid-container{    
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         flex-wrap: nowrap;
+    }
+    .grid-item{ 
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
     }
     .preguntasFrecuentes{   
         font-size: medium;
@@ -143,5 +153,3 @@ footer{
     h2{ 
         font-size: medium;
     }
-
-}
