@@ -1,0 +1,86 @@
+header{ 
+    h1{ 
+        font-family: $fuentetitulos;
+        color: $colorsecundario;
+        text-align: center;
+        font-size: 350%;
+    }
+
+    .anchoImagen{   
+        width: 100%;
+        height: 800px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: $colorbordeheader;
+    }
+    a{  
+        display: inline;
+        text-align: center;
+        font-family: "dosis";
+        text-decoration: none;
+        font-size:x-large;
+        color: #627254;
+        justify-content: space-between; 
+    }
+
+}
+
+main{ 
+    h1{ 
+        color: $colorterciario;
+        font-family: $fuentetitulos;
+    }  
+    .textIndex{ 
+       line-height:100px;
+       text-align:center;
+       font-size:x-large; 
+       font-family: "dosis";
+       font-style: italic;
+       
+       color: $colorterciario;
+    }
+    .textoPrincipal{    
+       font-size:x-large; 
+       font-family: "dosis";
+       font-style: italic;
+       text-align: center;
+       color: $colorterciario;
+    }
+    h2{ 
+        text-align: center;
+        color: $colorsecundario;
+        font-family: "Playfair Display";
+
+    }
+    p{  
+        color: $colorterciario;
+        font-family: "dosis";
+        font-size:x-large;
+    }
+    .grid-container{    
+        display: grid;
+        grid-template-columns: repeat(4, 2fr);
+        gap: 20px;
+        padding: 20px;
+    }
+    .grid-item {    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $colorprimario;
+        padding: 10px;
+        border: 1px solid $colorterciario;
+        border-radius: 8px; 
+    }
+    .formularios{   
+        align-items: center;
+        text-align: center;
+    }
+    .preguntasFrecuentes{   
+        text-align: center;
+    }
+}
+
+footer{ 
+    background-color: $colorfooter;
+}
