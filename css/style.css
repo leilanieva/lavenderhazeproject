@@ -1,155 +1,103 @@
 @font-face {
-    font-family: "Dosis";
-    src: url(../assets/Dosis/Dosis-VariableFont_wght.ttf);
+  font-family: "Dosis";
+  src: url(../assets/Dosis/Dosis-VariableFont_wght.ttf);
 }
 @font-face {
-    font-family: "Playfair Display";
-    src: url(../assets/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+  font-family: "Playfair Display";
+  src: url(../assets/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+header h1 {
+  font-family: "Playfair Display";
+  color: #91466f;
+  text-align: center;
+  font-size: 350%;
+  animation-duration: 2s;
+}
+header .anchoImagen {
+  width: 100%;
+  height: 800px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000000;
 }
 
-/*selecctores*/
-/*selector por etiqueta*/
-
-h1{ 
-    color: #624E88;
-    font-family: "Playfair Display";
-    font-size: xx-large;
-    text-align: center;
-
+main h1 {
+  color: #573f4a;
+  font-family: "Playfair Display";
 }
-h2{ 
-    font-family: "Playfair Display";
-    color: #624E88;
+main .textIndex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 200px;
+  text-align: center;
+  font-size: x-large;
+  font-family: "Dosis";
+  font-style: italic;
+  color: #573f4a;
 }
-h3{ 
-    font-family: "Playfair Display";
-    color: #624E88;
+main .textoPrincipal {
+  font-size: x-large;
+  font-family: "Dosis";
+  font-style: italic;
+  text-align: center;
+  color: #573f4a;
 }
- 
-/*selector por clase*/
-.shopText{  
-    font-size:x-large; 
-    font-family: "dosis";
-    font-style: italic;
-    text-align: center;
-    color: #627254;
+main h2 {
+  text-align: center;
+  color: #91466f;
+  font-family: "Playfair Display";
 }
-.aboutUs{   
-    font-size:x-large; 
-    font-family: "dosis";
-    font-style: italic;
-    text-align: center;
-    color: #627254;
+main p {
+  color: #573f4a;
+  font-family: "Dosis";
+  font-size: x-large;
 }
-.textIndex {
-    line-height:100px;
-    text-align:justify;
-    font-size:x-large; 
-    font-family: "dosis";
-    font-style: italic;
-    text-align: center;
-    color: #627254;
+main .grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  gap: 20px;
+  padding: 20px;
 }
-.contactoText{   
-    text-align: center;
+main .grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid #573f4a;
+  border-radius: 8px;
 }
-
-
-/*por etiqueta*/
-header{ 
-    text-align: center;
+main .formularios {
+  align-items: center;
+  text-align: center;
 }
-
-a{  
-    display: inline;
-    text-align: center;
-    font-family: "dosis";
-    text-decoration: none;
-    font-size:x-large;
-    color: #627254;
-    justify-content: space-between;
-    
-}
-p{  
-    font-family: "dosis";
-    font-size:x-large
-}
-li{ 
-    display: inline;
-}
-input{  
-    display: inline;
+main .preguntasFrecuentes {
+  text-align: center;
 }
 
-footer{ 
-    background-color: #D7C3F1;
+footer {
+  background-color: #dbdbb8;
 }
 
-
-/*por clase*/
-.bigTitle{  
-    font-size: 350%;
-}
-.anchoImagen{   
+@media (max-width: 480px) {
+  .anchoImagen {
     width: 100%;
-    height: 800px;
+    height: 200px;
     border-style: solid;
-    border-width: 2px;
-    border-color: #000000;
-}
-
-.formularios{   
-    align-items: center;
-    text-align: center;
-}
-.preguntasFrecuentes{   
-    text-align: center;
-}
-.grid-container{    
-    display: grid;
-    grid-template-columns: repeat(4, 2fr);
-    gap: 20px;
-    padding: 20px;
-}
-.grid-item {    
+  }
+  .grid-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
-    background-color: #ffffff;
-    padding: 10px;
-    border: 1px solid #627254;
-    border-radius: 8px; 
+    flex-wrap: nowrap;
+  }
+  .grid-item {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
 }
-.bg-light{  
-    background-color: #ffffff;
-}
 
-/*media queries*/
-
-@media (max-width:480px) {  
-    .anchoImagen{   
-        width: 100%;
-        height: 200px;
-        border-style:solid
-
-    }
-    .grid-container{    
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        flex-wrap: nowrap;
-    }
-    .grid-item{ 
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        flex-wrap: nowrap;
-    }
-    }
-    .preguntasFrecuentes{   
-        font-size: medium;
-        text-align: center;
-    }
-    h2{ 
-        font-size: medium;
-    }
+/*# sourceMappingURL=style.css.map */
