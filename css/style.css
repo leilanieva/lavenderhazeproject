@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   font-family: "Dosis";
   src: url(../assets/Dosis/Dosis-VariableFont_wght.ttf);
@@ -164,9 +163,54 @@ footer {
 }
 
 .navbar-nav .nav-link {
-  font-size: 18px; /* Ajusta el tamaño de la fuente */
-  padding: 20px 10px; /* Ajusta el espaciado */
+  font-size: 18px;
+  padding: 20px 10px;
   font-family: "Dosis";
+}
+
+@media (max-width: 576px) {
+  body main .grid-container {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    grid-template-columns: repeat(1, 2fr);
+  }
+  body main .grid-item {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  body main .containerNosotras {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: repeat(1, 2fr);
+  }
+  body main .nosotrasImg {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 0%;
+  }
+  body main .textoNosotras1 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  body main .textoNosotras2 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  body main .textoNosotras {
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+}
+@media (max-width: 576px) {
+  header .anchoImagen {
+    width: 100%;
+    height: 250px;
+    border-style: solid;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -146,11 +146,10 @@ main{
     justify-content: center;
     font-family: $fuenteTextos;
 }
-.botonSearch{   
+.botonSearch{
     background-color: $colorfooter;
     font-family: $fuenteTextos;
 }
-
 footer{ 
     background-color: $colorfooter;
 }   
@@ -167,7 +166,7 @@ footer{
 }
 
 .navbar-nav .nav-link {
-    font-size: 18px; /* Ajusta el tamaño de la fuente */
-    padding: 20px 10px; /* Ajusta el espaciado */
+    font-size: 18px; 
+    padding: 20px 10px; 
     font-family: $fuenteTextos;
   }
