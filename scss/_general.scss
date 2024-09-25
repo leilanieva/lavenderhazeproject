@@ -13,24 +13,26 @@ header{
         border-style: solid;
         border-width: 2px;
         border-color: $colorbordeheader;
+        margin-bottom: 5%;
     }
 
 }
 
 main{ 
     h1{ 
-        color: $colorterciario;
+        color: $colorsecundario;
         font-family: $fuentetitulos;
     }  
     .textIndex{ 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-       line-height:200px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       line-height:50px;
        text-align:center;
        font-size:x-large; 
        font-family: $fuenteTextos;
        font-style: italic;
+       margin-bottom: 5%;
        
        color: $colorterciario;
     }
@@ -38,8 +40,9 @@ main{
        font-size:x-large; 
        font-family: $fuenteTextos;
        font-style: italic;
-       text-align: center;
+       
        color: $colorterciario;
+       text-align:center;
     }
     h2{ 
         text-align: center;
@@ -48,7 +51,7 @@ main{
 
     }
     p{  
-        color: $colorterciario;
+        color: $colorsecundario;
         font-family: $fuenteTextos;
         font-size:x-large;
     }
@@ -64,7 +67,7 @@ main{
         align-items: center;
         background-color: $colorprimario;
         padding: 10px;
-        border: 1px solid $colorterciario;
+        border: 1px solid $colorfooter;
         border-radius: 8px; 
     }
     .formularios{   
@@ -73,9 +76,98 @@ main{
     }
     .preguntasFrecuentes{   
         text-align: center;
+        margin-bottom: 5%;
     }
+    .subtitulos{    
+        color: $colorfooter;
+    }
+    .nosotrasImg{    
+        border-radius: 10%;
+        border-color: $colorfooter;
+        border-style: solid;
+        margin-bottom: 3%;
+        margin-top: 2%;
+        align-items: start;
+        
+    }
+    .containerNosotras{ 
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 20px;
+
+        background-color: #fff;
+        padding: 20px;
+
+    }
+    .textoNosotras{ 
+        background-color: $colorfooter; /* Color de fondo*/
+        border-radius: 15px; /* Bordes redondeados */
+        padding: 20px; /* Espacio interno */
+        border: 1px solid $colorfooter; /* Borde gris claro */
+        width: 100%; /* Ancho del contenedor */
+        margin: 170px auto; /* Centrar el contenedor */
+        text-align:left; /* Centrar el texto */
+        height: 200px;
+
+    }
+    .textoNosotras1{    
+        background-color: $colorfooter; /* Color de fondo gris claro */
+        border-radius: 15px; /* Bordes redondeados */
+        padding: 20px; /* Espacio interno */
+        border: 1px solid $colorfooter; /* Borde gris claro */
+        width: 100%; /* Ancho del contenedor */
+        margin: 140px auto; /* Centrar el contenedor */
+        text-align: left;
+        height: 250px;
+        
+    }
+    .textoNosotras2{    
+        background-color: $colorfooter; /* Color de fondo gris claro */
+        border-radius: 15px; /* Bordes redondeados */
+        padding: 20px; /* Espacio interno */
+        border: 1px solid $colorfooter; /* Borde gris claro */
+        width: 100%; /* Ancho del contenedor */
+        margin: 150px auto; /* Centrar el contenedor */
+        text-align: left;
+        height: 300px;
+    }
+    .contact{   
+        text-align: center;
+        margin-bottom: 2%;
+    }
+}
+.botones{   
+    background-color: $colorfooter;
+    
+    border-style: solid;
+    border-color: $colorfooter;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    justify-content: center;
+    font-family: $fuenteTextos;
+}
+.botonSearch{   
+    background-color: $colorfooter;
+    font-family: $fuenteTextos;
 }
 
 footer{ 
     background-color: $colorfooter;
+}   
+.textoFooter{  
+    color: $colorterciario;
+    font-family: $fuenteTextos;
+    font-size: 300%;
+    
 }
+.textoFooter2{  
+    font-family: $fuenteTextos;
+    color:$colorprimario;
+    font-size: 110%;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px; /* Ajusta el tamaño de la fuente */
+    padding: 20px 10px; /* Ajusta el espaciado */
+    font-family: $fuenteTextos;
+  }

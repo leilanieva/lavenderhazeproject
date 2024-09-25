@@ -18,16 +18,16 @@
         <section>   
           <h1 class="animate_animated animate__bounce"> Lavender Haze </h1>
         </section>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+                    <a class="nav-link" aria-current="page" href="../index.html">HOME</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./contacto.html">CONTACTO</a>
@@ -42,40 +42,88 @@
                     <a class="nav-link" href="./faq.html">FAQs</a>
                   </li>
                 </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+                  <button class="btn botonSearch" type="submit">Buscar</button>
+                </form>
               </div>
             </div>
           </nav>
-        <section>   
-            <img src="../assets/flowersinglass.jpeg" class="anchoImagen">
-        </section>    
+          <section> 
+          
+            <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+             <div class="carousel-inner">
+              <div class="carousel-item active">
+              <img src="../assets/flowersinglass.jpeg" class= "anchoImagen d-block w-100" alt="...">
+              </div>
+            <div class="carousel-item">
+              <img src="../assets/buyingflowers.jpeg" class="anchoImagen d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="../assets/headerAboutus3.png" class="anchoImagen d-block w-100" alt="...">
+           </div>
+          </div>
+         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+         </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        </section> 
     </header>
-    <main>  
-        <h2>¿Quiénes somos?</h2>
+    <main class="container">
+        <h1 class="subtitulos"> ¿Quiénes somos? </h1>
         <section>   
-            <p class="textoPrincipal">Somos un grupo de emprendedoras con 10 años de trayectoria en el rubro y sí, estamos locas por los detalles y nos encanta poder compartirlo con vos. Nuestras flores y plantas son cuidadosamente seleccionadas, frescas y vibrantes desde elegantes rosas hasta exóticas orquídeas, cada pétalo cuenta.</p>
+            <p class="textoPrincipal">Bienvenido/a a Lavender Haze! somos un grupo de emprendedoras con más de 10 años de trayectoria en el rubro, amamos las flores y los detalles y nos encanta poder compartirlo con vos. Nuestras flores y plantas son cuidadosamente seleccionadas, frescas y vibrantes desde elegantes rosas hasta exóticas orquídeas, cada pétalo cuenta.</p>
         </section>
-    </main>
-    <footer>    
-      <footer class="bg-dark text-white pt-4">
+        <div class="containerNosotras">
+          <img src="../assets/bluewall-red.jpeg" alt="Descripción de la imagen" class="nosotrasImg">
+          <div class="textoNosotras1">
+              <p>En nuestra florería, nos especializamos en crear arreglos florales únicos y personalizados para cada ocasión. Utilizamos flores frescas y de la más alta calidad para asegurarnos de que cada ramo transmita exactamente lo que deseas expresar.</p>
+          </div>
+      </div>
+      <div class="containerNosotras">
+        <div class="textoNosotras2">
+            <p> Ya sea para un cumpleaños, aniversario, o simplemente para alegrar el día de alguien, nuestras flores son la elección perfecta. Nuestro equipo de floristas profesionales trabaja con pasión y creatividad para diseñar arreglos personalizados que reflejen tus gustos y necesidades.</p>
+        </div>
+        <img src="../assets/pexels-photo-RED.jpeg" alt="Descripción de la imagen" class="nosotrasImg">
+    </div>
+    <div class="containerNosotras">
+      <img src="../assets/nosotrasred.jpeg" alt="Descripción de la imagen" class="nosotrasImg">
+      <div class="textoNosotras">
+          <p> Desde ramos de novia y centros de mesa, hasta decoraciones completas para eventos corporativos, no dudes en contactarnos y te asesoramos para que solo te preocupes de disfrutar.</p>
+      </div>
+    </div>
+  </main>
+  <footer>    
+      <footer class="pt-4">
         <div class="container text-center text-md-left">
           <div class="row">
             <div class="col-md-6 mt-md-0 mt-3">
-              <h5 class="text-uppercase">Contacto</h5>
-              <p>Encontranos en: Almagro 123, CABA</p>
-              <p>E-mail: contacto@floreslavender.com.ar</p>
-              <p>Telefono: 1134989576 </p>
+              <h2 class="textoFooter">Contacto</h2>
+              <p class="textoFooter2"> Encontranos en: Güemes 3778, Ciudad Autónoma de Buenos Aires</p>
+              <p class="textoFooter2"> E-mail: contacto@floreslavender.com.ar</p>
+              <p class="textoFooter2"> Telefono: 1134989576 </p>
             </div>
             <hr class="clearfix w-100 d-md-none pb-3">
             <div class="col-md-6 mb-md-0 mb-3">
-              <h5 class="text-uppercase">NOVEDADES</h5>
+              <h2 class="textoFooter">Novedades</h2>
               <ul class="list-unstyled">
                 <li>
-                  <a href="#" class="text-white"><i class="fab fa-facebook-f"></i> Facebook</a>
+                  <a href="#" class="textoFooter2"><i class="fab fa-facebook-f"></i> Facebook</a>
                 </li>
-                  <a href="#" class="text-white"><i class="fab fa-instagram"></i> Instagram</a>
+                  <a href="#" class="textoFooter2"><i class="fab fa-instagram"></i> Instagram</a>
                 </li>
                 <li>
-                  <a href="#" class="text-white"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                  <a href="#" class="textoFooter2"><i class="fab fa-whatsapp"></i> WhatsApp</a>
                 </li>
               </ul>
             </div>
@@ -83,7 +131,7 @@
         </div>
         <div class="footer-copyright text-center py-3">
           © 2024 Copyright:
-          <a href="https://www.ejemplo.com" class="text-white"> leimonada.com</a>
+          <a href="https://www.ejemplo.com" class="textoFooter2"> leimonada.com</a>
         </div>
       </footer>
     

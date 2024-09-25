@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Dosis";
   src: url(../assets/Dosis/Dosis-VariableFont_wght.ttf);
@@ -8,7 +9,7 @@
 }
 header h1 {
   font-family: "Playfair Display";
-  color: #91466f;
+  color: #734691;
   text-align: center;
   font-size: 350%;
   animation-duration: 2s;
@@ -19,37 +20,39 @@ header .anchoImagen {
   border-style: solid;
   border-width: 2px;
   border-color: #000000;
+  margin-bottom: 5%;
 }
 
 main h1 {
-  color: #573f4a;
+  color: #734691;
   font-family: "Playfair Display";
 }
 main .textIndex {
   display: flex;
   flex-direction: column;
   align-items: center;
-  line-height: 200px;
+  line-height: 50px;
   text-align: center;
   font-size: x-large;
   font-family: "Dosis";
   font-style: italic;
-  color: #573f4a;
+  margin-bottom: 5%;
+  color: #c3a9da;
 }
 main .textoPrincipal {
   font-size: x-large;
   font-family: "Dosis";
   font-style: italic;
+  color: #c3a9da;
   text-align: center;
-  color: #573f4a;
 }
 main h2 {
   text-align: center;
-  color: #91466f;
+  color: #734691;
   font-family: "Playfair Display";
 }
 main p {
-  color: #573f4a;
+  color: #734691;
   font-family: "Dosis";
   font-size: x-large;
 }
@@ -65,7 +68,7 @@ main .grid-item {
   align-items: center;
   background-color: #ffffff;
   padding: 10px;
-  border: 1px solid #573f4a;
+  border: 1px solid #8daf84;
   border-radius: 8px;
 }
 main .formularios {
@@ -74,30 +77,96 @@ main .formularios {
 }
 main .preguntasFrecuentes {
   text-align: center;
+  margin-bottom: 5%;
+}
+main .subtitulos {
+  color: #8daf84;
+}
+main .nosotrasImg {
+  border-radius: 10%;
+  border-color: #8daf84;
+  border-style: solid;
+  margin-bottom: 3%;
+  margin-top: 2%;
+  align-items: start;
+}
+main .containerNosotras {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  background-color: #fff;
+  padding: 20px;
+}
+main .textoNosotras {
+  background-color: #8daf84; /* Color de fondo*/
+  border-radius: 15px; /* Bordes redondeados */
+  padding: 20px; /* Espacio interno */
+  border: 1px solid #8daf84; /* Borde gris claro */
+  width: 100%; /* Ancho del contenedor */
+  margin: 170px auto; /* Centrar el contenedor */
+  text-align: left; /* Centrar el texto */
+  height: 200px;
+}
+main .textoNosotras1 {
+  background-color: #8daf84; /* Color de fondo gris claro */
+  border-radius: 15px; /* Bordes redondeados */
+  padding: 20px; /* Espacio interno */
+  border: 1px solid #8daf84; /* Borde gris claro */
+  width: 100%; /* Ancho del contenedor */
+  margin: 140px auto; /* Centrar el contenedor */
+  text-align: left;
+  height: 250px;
+}
+main .textoNosotras2 {
+  background-color: #8daf84; /* Color de fondo gris claro */
+  border-radius: 15px; /* Bordes redondeados */
+  padding: 20px; /* Espacio interno */
+  border: 1px solid #8daf84; /* Borde gris claro */
+  width: 100%; /* Ancho del contenedor */
+  margin: 150px auto; /* Centrar el contenedor */
+  text-align: left;
+  height: 300px;
+}
+main .contact {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.botones {
+  background-color: #8daf84;
+  border-style: solid;
+  border-color: #8daf84;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  justify-content: center;
+  font-family: "Dosis";
+}
+
+.botonSearch {
+  background-color: #8daf84;
+  font-family: "Dosis";
 }
 
 footer {
-  background-color: #dbdbb8;
+  background-color: #8daf84;
 }
 
-@media (max-width: 480px) {
-  .anchoImagen {
-    width: 100%;
-    height: 200px;
-    border-style: solid;
-  }
-  .grid-container {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    flex-wrap: nowrap;
-  }
-  .grid-item {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    flex-wrap: nowrap;
-  }
+.textoFooter {
+  color: #c3a9da;
+  font-family: "Dosis";
+  font-size: 300%;
+}
+
+.textoFooter2 {
+  font-family: "Dosis";
+  color: #ffffff;
+  font-size: 110%;
+}
+
+.navbar-nav .nav-link {
+  font-size: 18px; /* Ajusta el tamaño de la fuente */
+  padding: 20px 10px; /* Ajusta el espaciado */
+  font-family: "Dosis";
 }
 
 /*# sourceMappingURL=style.css.map */
