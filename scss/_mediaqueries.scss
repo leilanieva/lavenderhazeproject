@@ -17,7 +17,7 @@
             }
             .containerNosotras{
                 display: grid;
-                
+                padding: 0%;
                 flex-direction: column;
                 align-items: center;
                 grid-template-columns: repeat(1, 2fr);
@@ -32,17 +32,27 @@
             .textoNosotras1{ 
                 margin-top: 1%;
                 margin-bottom: 1%;
+                font-size: small;
+                
+                
             }
             .textoNosotras2{    
                 margin-top: 1%;
                 margin-bottom: 1%;
+                
             }
             .textoNosotras{    
                 margin-top: 1%;
-                margin-bottom: 1%;  
+                margin-bottom: 1%;
+                 
 
             }
-            
+            .textoPrincipal{    
+                font-size: large;
+            }
+            form{   
+                width: 50%;
+            }
         }
     }
 }
@@ -57,3 +67,4 @@
         }
     }
 }
+

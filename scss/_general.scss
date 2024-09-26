@@ -1,10 +1,23 @@
-header{ 
+body{   
+    background-color: #f5ecda;
+}
+
+
+header{
+    .tituloPrincipal{   
+        font-size: 500%;
+    }
+
     h1{ 
         font-family: $fuentetitulos;
         color: $colorsecundario;
         text-align: center;
         font-size: 350%;
         animation-duration: 2s;
+    }
+
+    form{   
+        width: 50%;
     }
 
     .anchoImagen{   
@@ -29,17 +42,19 @@ main{
        align-items: center;
        line-height:50px;
        text-align:center;
-       font-size:x-large; 
+       font-size: 180%; 
        font-family: $fuenteTextos;
        font-style: italic;
        margin-bottom: 5%;
+       margin-top: 5%;
        
        color: $colorterciario;
     }
     .textoPrincipal{    
-       font-size:x-large; 
+       font-size:180%; 
        font-family: $fuenteTextos;
        font-style: italic;
+       margin-bottom: 8%;
        
        color: $colorterciario;
        text-align:center;
@@ -48,7 +63,10 @@ main{
         text-align: center;
         color: $colorsecundario;
         font-family: $fuentetitulos;
-
+        background-color: $colorfooter;
+        padding: 10px 20px; /* Espaciado interno */
+        border-radius: 15px;
+        display: inline-block;
     }
     p{  
         color: $colorsecundario;
@@ -57,7 +75,7 @@ main{
     }
     .grid-container{    
         display: grid;
-        grid-template-columns: repeat(4, 2fr);
+        grid-template-columns: repeat(3, 3fr);
         gap: 20px;
         padding: 20px;
     }
@@ -80,6 +98,9 @@ main{
     }
     .subtitulos{    
         color: $colorfooter;
+        text-align: center;
+        margin-top: 0%;
+        margin-bottom: 3%;
     }
     .nosotrasImg{    
         border-radius: 10%;
@@ -94,8 +115,6 @@ main{
         display: grid;
         grid-template-columns: 1fr 2fr;
         gap: 20px;
-
-        background-color: #fff;
         padding: 20px;
 
     }
@@ -135,10 +154,11 @@ main{
         text-align: center;
         margin-bottom: 2%;
     }
+    
 }
 .botones{   
     background-color: $colorfooter;
-    
+    color: $colorprimario;
     border-style: solid;
     border-color: $colorfooter;
     margin-top: 5%;
@@ -149,12 +169,13 @@ main{
 .botonSearch{
     background-color: $colorfooter;
     font-family: $fuenteTextos;
+    color:$colorprimario;
 }
 footer{ 
     background-color: $colorfooter;
 }   
 .textoFooter{  
-    color: $colorterciario;
+    color: $colorsecundario;
     font-family: $fuenteTextos;
     font-size: 300%;
     

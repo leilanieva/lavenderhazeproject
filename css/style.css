@@ -6,12 +6,22 @@
   font-family: "Playfair Display";
   src: url(../assets/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
 }
+body {
+  background-color: #f5ecda;
+}
+
+header .tituloPrincipal {
+  font-size: 500%;
+}
 header h1 {
   font-family: "Playfair Display";
   color: #734691;
   text-align: center;
   font-size: 350%;
   animation-duration: 2s;
+}
+header form {
+  width: 50%;
 }
 header .anchoImagen {
   width: 100%;
@@ -32,16 +42,18 @@ main .textIndex {
   align-items: center;
   line-height: 50px;
   text-align: center;
-  font-size: x-large;
+  font-size: 180%;
   font-family: "Dosis";
   font-style: italic;
   margin-bottom: 5%;
+  margin-top: 5%;
   color: #c3a9da;
 }
 main .textoPrincipal {
-  font-size: x-large;
+  font-size: 180%;
   font-family: "Dosis";
   font-style: italic;
+  margin-bottom: 8%;
   color: #c3a9da;
   text-align: center;
 }
@@ -49,6 +61,10 @@ main h2 {
   text-align: center;
   color: #734691;
   font-family: "Playfair Display";
+  background-color: #a8c0a2;
+  padding: 10px 20px; /* Espaciado interno */
+  border-radius: 15px;
+  display: inline-block;
 }
 main p {
   color: #734691;
@@ -57,7 +73,7 @@ main p {
 }
 main .grid-container {
   display: grid;
-  grid-template-columns: repeat(4, 2fr);
+  grid-template-columns: repeat(3, 3fr);
   gap: 20px;
   padding: 20px;
 }
@@ -67,7 +83,7 @@ main .grid-item {
   align-items: center;
   background-color: #ffffff;
   padding: 10px;
-  border: 1px solid #8daf84;
+  border: 1px solid #a8c0a2;
   border-radius: 8px;
 }
 main .formularios {
@@ -79,11 +95,14 @@ main .preguntasFrecuentes {
   margin-bottom: 5%;
 }
 main .subtitulos {
-  color: #8daf84;
+  color: #a8c0a2;
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 3%;
 }
 main .nosotrasImg {
   border-radius: 10%;
-  border-color: #8daf84;
+  border-color: #a8c0a2;
   border-style: solid;
   margin-bottom: 3%;
   margin-top: 2%;
@@ -93,34 +112,33 @@ main .containerNosotras {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 20px;
-  background-color: #fff;
   padding: 20px;
 }
 main .textoNosotras {
-  background-color: #8daf84; /* Color de fondo*/
+  background-color: #a8c0a2; /* Color de fondo*/
   border-radius: 15px; /* Bordes redondeados */
   padding: 20px; /* Espacio interno */
-  border: 1px solid #8daf84; /* Borde gris claro */
+  border: 1px solid #a8c0a2; /* Borde gris claro */
   width: 100%; /* Ancho del contenedor */
   margin: 170px auto; /* Centrar el contenedor */
   text-align: left; /* Centrar el texto */
   height: 200px;
 }
 main .textoNosotras1 {
-  background-color: #8daf84; /* Color de fondo gris claro */
+  background-color: #a8c0a2; /* Color de fondo gris claro */
   border-radius: 15px; /* Bordes redondeados */
   padding: 20px; /* Espacio interno */
-  border: 1px solid #8daf84; /* Borde gris claro */
+  border: 1px solid #a8c0a2; /* Borde gris claro */
   width: 100%; /* Ancho del contenedor */
   margin: 140px auto; /* Centrar el contenedor */
   text-align: left;
   height: 250px;
 }
 main .textoNosotras2 {
-  background-color: #8daf84; /* Color de fondo gris claro */
+  background-color: #a8c0a2; /* Color de fondo gris claro */
   border-radius: 15px; /* Bordes redondeados */
   padding: 20px; /* Espacio interno */
-  border: 1px solid #8daf84; /* Borde gris claro */
+  border: 1px solid #a8c0a2; /* Borde gris claro */
   width: 100%; /* Ancho del contenedor */
   margin: 150px auto; /* Centrar el contenedor */
   text-align: left;
@@ -132,9 +150,10 @@ main .contact {
 }
 
 .botones {
-  background-color: #8daf84;
+  background-color: #a8c0a2;
+  color: #ffffff;
   border-style: solid;
-  border-color: #8daf84;
+  border-color: #a8c0a2;
   margin-top: 5%;
   margin-bottom: 10%;
   justify-content: center;
@@ -142,16 +161,17 @@ main .contact {
 }
 
 .botonSearch {
-  background-color: #8daf84;
+  background-color: #a8c0a2;
   font-family: "Dosis";
+  color: #ffffff;
 }
 
 footer {
-  background-color: #8daf84;
+  background-color: #a8c0a2;
 }
 
 .textoFooter {
-  color: #c3a9da;
+  color: #734691;
   font-family: "Dosis";
   font-size: 300%;
 }
@@ -183,6 +203,7 @@ footer {
   }
   body main .containerNosotras {
     display: grid;
+    padding: 0%;
     flex-direction: column;
     align-items: center;
     grid-template-columns: repeat(1, 2fr);
@@ -195,6 +216,7 @@ footer {
   body main .textoNosotras1 {
     margin-top: 1%;
     margin-bottom: 1%;
+    font-size: small;
   }
   body main .textoNosotras2 {
     margin-top: 1%;
@@ -203,6 +225,12 @@ footer {
   body main .textoNosotras {
     margin-top: 1%;
     margin-bottom: 1%;
+  }
+  body main .textoPrincipal {
+    font-size: large;
+  }
+  body main form {
+    width: 50%;
   }
 }
 @media (max-width: 576px) {
