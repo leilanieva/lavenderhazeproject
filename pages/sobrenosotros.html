@@ -11,6 +11,7 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -82,9 +83,9 @@
         </div>
     </header>
     <main class="container">
-        <h1 class="animate_animated animate__heartBeat subtitulos"> ¿Quiénes somos? </h1>
+        <h1 class="subtitulos" data-aos="zoom-in"> ¿Quiénes somos? </h1>
         <section>   
-            <p class="textoPrincipal">Bienvenido/a a Lavender Haze! somos un grupo de emprendedoras con más de 10 años de trayectoria en el rubro florista. Amamos las flores y los detalles y nos encanta poder compartirlo con vos. Nuestras flores y plantas son cuidadosamente seleccionadas, frescas y vibrantes desde elegantes rosas hasta exóticas orquídeas, cada pétalo cuenta.</p>
+            <p class="textoPrincipal" data-aos="zoom-in-down">Bienvenido/a a Lavender Haze! somos un grupo de emprendedoras con más de 10 años de trayectoria en el rubro florista. Amamos las flores y los detalles y nos encanta poder compartirlo con vos. Nuestras flores y plantas son cuidadosamente seleccionadas, frescas y vibrantes desde elegantes rosas hasta exóticas orquídeas, cada pétalo cuenta.</p>
         </section>
         <div class="containerNosotras" data-aos="fade-right">
           <img src="../assets/bluewall-red.jpeg" alt="Descripción de la imagen" class="nosotrasImg">
@@ -92,13 +93,13 @@
               <p>En nuestra florería, nos especializamos en crear arreglos florales únicos y personalizados para cada ocasión. Utilizamos flores frescas y de la más alta calidad para asegurarnos de que cada ramo transmita exactamente lo que deseas expresar.</p>
           </div>
       </div>
-      <div class="containerNosotras">
+      <div class="containerNosotras" data-aos="fade-left">
         <div class="textoNosotras2">
             <p> Ya sea para un cumpleaños, aniversario, o simplemente para alegrar el día de alguien, nuestras flores son la elección perfecta. Nuestro equipo de floristas profesionales trabaja con pasión y creatividad para diseñar arreglos personalizados que reflejen tus gustos y necesidades.</p>
         </div>
         <img src="../assets/pexels-photo-RED.jpeg" alt="Descripción de la imagen" class="nosotrasImg">
     </div>
-    <div class="containerNosotras">
+    <div class="containerNosotras" data-aos="fade-right">
       <img src="../assets/nosotrasred.jpeg" alt="Descripción de la imagen" class="nosotrasImg">
       <div class="textoNosotras">
           <p> Desde ramos de novia y centros de mesa, hasta decoraciones completas para eventos corporativos, no dudes en contactarnos y te asesoramos para que solo te preocupes de disfrutar.</p>
@@ -144,5 +145,9 @@
     </html>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
