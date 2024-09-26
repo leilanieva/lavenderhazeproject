@@ -31,6 +31,9 @@ header .anchoImagen {
   border-color: #000000;
   margin-bottom: 5%;
 }
+header .formBuscador {
+  width: 10%;
+}
 
 main h1 {
   color: #734691;
