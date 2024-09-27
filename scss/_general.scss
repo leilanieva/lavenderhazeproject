@@ -72,7 +72,7 @@ main{
     p{  
         color: $colorsecundario;
         font-family: $fuenteTextos;
-        font-size:large;
+        font-size: 18px;
     }
     .grid-container{    
         display: grid;
@@ -88,6 +88,7 @@ main{
         padding: 10px;
         border: 1px solid $colorfooter;
         border-radius: 8px; 
+        box-shadow: 0px 1px 20px -1px gray;
     }
     .formularios{   
         align-items: center;
