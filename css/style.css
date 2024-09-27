@@ -21,7 +21,7 @@ header h1 {
   animation-duration: 2s;
 }
 header form {
-  width: 50%;
+  width: 25%;
 }
 header .anchoImagen {
   width: 100%;
@@ -30,9 +30,37 @@ header .anchoImagen {
   border-width: 2px;
   border-color: #000000;
   margin-bottom: 5%;
+  margin-top: 0%;
 }
 header .formBuscador {
-  width: 10%;
+  margin-top: 2%;
+  justify-content: flex-end;
+  display: flex;
+  width: 18%;
+}
+header .menuLinks {
+  list-style-type: none;
+  font-family: "Dosis";
+  display: flex;
+  flex-flow: row;
+  margin: 0px;
+  font-size: 20px;
+  padding: 20px 10px;
+  margin-bottom: 1%;
+  justify-content: center;
+  justify-items: center;
+}
+header .menuLinks li {
+  margin: 50px 50px 50px 50px;
+  margin-bottom: 0%;
+  justify-items: center;
+  color: #734691;
+  background-color: #c3a9da;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+header .menuLinks li:hover {
+  background-color: #a8c0a2;
 }
 
 main h1 {
@@ -182,6 +210,7 @@ main .btn-custom:hover {
   background-color: #a8c0a2;
   font-family: "Dosis";
   color: #ffffff;
+  margin-bottom: 0%;
 }
 
 .botonSearch:hover {
@@ -242,9 +271,6 @@ footer {
   body main form {
     width: 50%;
   }
-  body main .form-control {
-    margin-top: 0%;
-  }
   body main h2 {
     text-align: center;
     align-content: center;
@@ -277,6 +303,18 @@ footer {
   }
   header .formBuscador {
     width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 30%;
+    margin-bottom: 2%;
+  }
+  header .menuLinks {
+    font-size: 18px;
+    padding: 20px 10px;
+    font-family: "Dosis";
+    flex-direction: column;
+    text-align: center;
   }
 }
 

@@ -35,9 +35,6 @@
             form{   
                 width: 50%;                 
             }
-            .form-control{  
-                margin-top: 0%;
-            }
             h2{ 
                 text-align: center;
                 align-content: center;
@@ -77,6 +74,19 @@
         }
         .formBuscador{  
             width: 50%;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            margin-left: 30%;
+            margin-bottom: 2%;
+
+        }
+        .menuLinks{ 
+            font-size: 18px; 
+            padding: 20px 10px; 
+            font-family: $fuenteTextos;
+            flex-direction: column;
+            text-align: center;
         }
     }
 }
