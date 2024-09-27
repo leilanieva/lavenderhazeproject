@@ -53,7 +53,7 @@ main .textIndex {
   color: #c3a9da;
 }
 main .textoPrincipal {
-  font-size: 180%;
+  font-size: 150%;
   font-family: "Dosis";
   font-style: italic;
   margin-bottom: 8%;
@@ -72,7 +72,7 @@ main h2 {
 main p {
   color: #734691;
   font-family: "Dosis";
-  font-size: x-large;
+  font-size: large;
 }
 main .grid-container {
   display: grid;
@@ -117,6 +117,10 @@ main .containerNosotras {
   gap: 20px;
   padding: 20px;
 }
+main .contact {
+  text-align: center;
+  margin-bottom: 2%;
+}
 main .textoNosotras {
   background-color: #a8c0a2; /* Color de fondo*/
   border-radius: 15px; /* Bordes redondeados */
@@ -147,9 +151,14 @@ main .textoNosotras2 {
   text-align: left;
   height: 300px;
 }
-main .contact {
-  text-align: center;
-  margin-bottom: 2%;
+main .btn-custom {
+  background-color: #a8c0a2;
+  color: #ffffff;
+  border-color: #a8c0a2;
+}
+main .btn-custom:hover {
+  background-color: #c3a9da;
+  color: #734691;
 }
 
 .botones {
@@ -163,10 +172,20 @@ main .contact {
   font-family: "Dosis";
 }
 
+.botones:hover {
+  background-color: #c3a9da;
+  color: #734691;
+}
+
 .botonSearch {
   background-color: #a8c0a2;
   font-family: "Dosis";
   color: #ffffff;
+}
+
+.botonSearch:hover {
+  background-color: #c3a9da;
+  color: #734691;
 }
 
 footer {
@@ -206,28 +225,15 @@ footer {
   }
   body main .containerNosotras {
     display: grid;
-    padding: 0%;
     flex-direction: column;
     align-items: center;
     grid-template-columns: repeat(1, 2fr);
+    font-size: 20px;
   }
   body main .nosotrasImg {
     width: 100%;
     height: 300px;
     margin-bottom: 0%;
-  }
-  body main .textoNosotras1 {
-    margin-top: 1%;
-    margin-bottom: 1%;
-    font-size: small;
-  }
-  body main .textoNosotras2 {
-    margin-top: 1%;
-    margin-bottom: 1%;
-  }
-  body main .textoNosotras {
-    margin-top: 1%;
-    margin-bottom: 1%;
   }
   body main .textoPrincipal {
     font-size: large;
@@ -248,12 +254,25 @@ footer {
     font-size: large;
     padding-bottom: 7%;
   }
+  body main .textoNosotras1 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  body main .textoNosotras2 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  body main .textoNosotras {
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
 }
 @media (max-width: 576px) {
   header .anchoImagen {
     width: 100%;
     height: 250px;
     border-style: solid;
+    margin-bottom: 1%;
   }
   header .formBuscador {
     width: 50%;

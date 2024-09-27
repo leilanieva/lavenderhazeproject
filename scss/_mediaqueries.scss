@@ -17,10 +17,10 @@
             }
             .containerNosotras{
                 display: grid;
-                padding: 0%;
                 flex-direction: column;
                 align-items: center;
                 grid-template-columns: repeat(1, 2fr);
+                font-size: 20px;
                 
 
             }
@@ -28,24 +28,6 @@
                 width: 100%;
                 height: 300px;
                 margin-bottom: 0%;
-            }
-            .textoNosotras1{ 
-                margin-top: 1%;
-                margin-bottom: 1%;
-                font-size: small;
-                
-                
-            }
-            .textoNosotras2{    
-                margin-top: 1%;
-                margin-bottom: 1%;
-                
-            }
-            .textoNosotras{    
-                margin-top: 1%;
-                margin-bottom: 1%;
-                 
-
             }
             .textoPrincipal{    
                 font-size: large;
@@ -66,6 +48,19 @@
                 font-size: large;
                 padding-bottom: 7%;
             }
+            
+            .textoNosotras1{ 
+                margin-top: 0%;
+                margin-bottom: 0%;                
+            }
+            .textoNosotras2{    
+                margin-top: 0%;
+                margin-bottom: 0%;                
+            }
+            .textoNosotras{    
+                margin-top: 1%;
+                margin-bottom: 1%;                 
+            }
 
         }
     }
@@ -76,7 +71,8 @@
         .anchoImagen{   
             width: 100%;
             height: 250px;
-            border-style:solid
+            border-style:solid;
+            margin-bottom: 1%;
     
         }
         .formBuscador{  
@@ -84,4 +80,5 @@
         }
     }
 }
+
 

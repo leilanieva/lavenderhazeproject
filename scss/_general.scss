@@ -31,9 +31,7 @@ header{
     .formBuscador{  
         width: 10%;
     }
-
-}
-
+}    
 main{ 
     h1{ 
         color: $colorsecundario;
@@ -54,7 +52,7 @@ main{
        color: $colorterciario;
     }
     .textoPrincipal{    
-       font-size:180%; 
+       font-size:150%; 
        font-family: $fuenteTextos;
        font-style: italic;
        margin-bottom: 8%;
@@ -74,7 +72,7 @@ main{
     p{  
         color: $colorsecundario;
         font-family: $fuenteTextos;
-        font-size:x-large;
+        font-size:large;
     }
     .grid-container{    
         display: grid;
@@ -121,6 +119,11 @@ main{
         padding: 20px;
 
     }
+  
+    .contact{   
+        text-align: center;
+        margin-bottom: 2%;
+    }
     .textoNosotras{ 
         background-color: $colorfooter; /* Color de fondo*/
         border-radius: 15px; /* Bordes redondeados */
@@ -129,8 +132,7 @@ main{
         width: 100%; /* Ancho del contenedor */
         margin: 170px auto; /* Centrar el contenedor */
         text-align:left; /* Centrar el texto */
-        height: 200px;
-
+        height: 200px;    
     }
     .textoNosotras1{    
         background-color: $colorfooter; /* Color de fondo gris claro */
@@ -153,10 +155,16 @@ main{
         text-align: left;
         height: 300px;
     }
-    .contact{   
-        text-align: center;
-        margin-bottom: 2%;
+    .btn-custom{    
+        background-color: $colorfooter;
+        color: $colorprimario;
+        border-color: $colorfooter;
     }
+    .btn-custom:hover{   
+        background-color: $colorterciario;
+        color: $colorsecundario;
+    }
+
     
 }
 .botones{   
@@ -169,10 +177,18 @@ main{
     justify-content: center;
     font-family: $fuenteTextos;
 }
+.botones:hover{ 
+    background-color: $colorterciario;
+    color: $colorsecundario;
+}
 .botonSearch{
     background-color: $colorfooter;
     font-family: $fuenteTextos;
     color:$colorprimario;
+}
+.botonSearch:hover{   
+    background-color: $colorterciario;
+    color:$colorsecundario
 }
 footer{ 
     background-color: $colorfooter;
