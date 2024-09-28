@@ -17,7 +17,7 @@
             }
             .containerNosotras{
                 display: grid;
-                flex-direction: column;
+                flex-direction: column-reverse;
                 align-items: center;
                 grid-template-columns: repeat(1, 2fr);
                 font-size: 20px;
@@ -73,11 +73,11 @@
     
         }
         .formBuscador{  
-            width: 50%;
+            width: 65%;
             align-items: center;
             justify-content: center;
             display: flex;
-            margin-left: 30%;
+            margin-left: 20%;
             margin-bottom: 2%;
 
         }
@@ -86,7 +86,7 @@
             padding: 20px 10px; 
             font-family: $fuenteTextos;
             flex-direction: column;
-            text-align: center;
+            text-align: center;            
         }
     }
 }
