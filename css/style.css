@@ -48,7 +48,8 @@ header .menuLinks {
   margin: 0px;
   font-size: 20px;
   padding: 20px 10px;
-  margin-bottom: 0%;
+  margin-bottom: 1%;
+  margin-top: 1%;
   justify-content: center;
   justify-items: center;
 }
@@ -57,12 +58,13 @@ header .menuLinks li {
   margin-bottom: 0%;
   justify-items: center;
   color: #f5ecda;
-  background-color: #c3a9da;
+  background-color: #32502a;
   border-radius: 10px;
   padding: 10px 20px;
+  margin-top: 2%;
 }
 header .menuLinks li:hover {
-  background-color: #a8c0a2;
+  background-color: #c3a9da;
   color: #734691;
 }
 
@@ -71,37 +73,35 @@ main h1 {
   font-family: "Playfair Display";
 }
 main .textIndex {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   line-height: 50px;
   text-align: center;
-  font-size: 180%;
-  font-family: "Dosis";
-  font-style: italic;
-  margin-bottom: 5%;
-  margin-top: 5%;
-  color: #c3a9da;
-}
-main .textoPrincipal {
   font-size: 150%;
   font-family: "Dosis";
-  font-style: italic;
+  font-style: normal;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  color: #734691;
+}
+main .textoPrincipal {
+  font-size: 140%;
+  font-family: "Dosis";
+  font-style: normal;
   margin-bottom: 8%;
-  color: #c3a9da;
+  color: #734691;
   text-align: center;
 }
 main h2 {
   text-align: center;
-  color: #734691;
+  color: #f5ecda;
   font-family: "Playfair Display";
-  background-color: #a8c0a2;
+  background-color: #32502a;
   padding: 10px 20px;
   border-radius: 15px;
   display: inline-block;
 }
 main p {
-  color: #734691;
+  color: #c3a9da;
   font-family: "Dosis";
   font-size: 18px;
 }
@@ -117,7 +117,7 @@ main .grid-item {
   align-items: center;
   background-color: #ffffff;
   padding: 10px;
-  border: 1px solid #a8c0a2;
+  border: 1px solid #32502a;
   border-radius: 8px;
   box-shadow: 0px 1px 20px -1px gray;
 }
@@ -130,14 +130,14 @@ main .preguntasFrecuentes {
   margin-bottom: 5%;
 }
 main .subtitulos {
-  color: #a8c0a2;
+  color: #32502a;
   text-align: center;
   margin-top: 0%;
   margin-bottom: 3%;
 }
 main .nosotrasImg {
   border-radius: 10%;
-  border-color: #a8c0a2;
+  border-color: #32502a;
   border-style: solid;
   margin-bottom: 3%;
   margin-top: 2%;
@@ -154,39 +154,39 @@ main .contact {
   margin-bottom: 2%;
 }
 main .textoNosotras {
-  background-color: #a8c0a2;
+  background-color: #32502a;
   border-radius: 15px;
   padding: 20px;
-  border: 1px solid #a8c0a2;
+  border: 1px solid #32502a;
   width: 100%;
   margin: 170px auto;
   text-align: left;
   height: 200px;
 }
 main .textoNosotras1 {
-  background-color: #a8c0a2;
+  background-color: #32502a;
   border-radius: 15px;
   padding: 20px;
-  border: 1px solid #a8c0a2;
+  border: 1px solid #32502a;
   width: 100%;
   margin: 140px auto;
   text-align: left;
   height: 250px;
 }
 main .textoNosotras2 {
-  background-color: #a8c0a2;
+  background-color: #32502a;
   border-radius: 15px;
   padding: 20px;
-  border: 1px solid #a8c0a2;
+  border: 1px solid #32502a;
   width: 100%;
   margin: 150px auto;
   text-align: left;
   height: 300px;
 }
 main .btn-custom {
-  background-color: #a8c0a2;
+  background-color: #32502a;
   color: #ffffff;
-  border-color: #a8c0a2;
+  border-color: #32502a;
 }
 main .btn-custom:hover {
   background-color: #c3a9da;
@@ -194,10 +194,10 @@ main .btn-custom:hover {
 }
 
 .botones {
-  background-color: #a8c0a2;
+  background-color: #32502a;
   color: #ffffff;
   border-style: solid;
-  border-color: #a8c0a2;
+  border-color: #32502a;
   margin-top: 5%;
   margin-bottom: 10%;
   justify-content: center;
@@ -210,7 +210,7 @@ main .btn-custom:hover {
 }
 
 .botonSearch {
-  background-color: #a8c0a2;
+  background-color: #32502a;
   font-family: "Dosis";
   color: #ffffff;
   margin-bottom: 0%;
@@ -222,7 +222,7 @@ main .btn-custom:hover {
 }
 
 footer {
-  background-color: #a8c0a2;
+  background-color: #32502a;
 }
 
 .textoFooter {
