@@ -147,6 +147,7 @@ main .nosotrasImg {
   margin-bottom: 3%;
   margin-top: 2%;
   align-items: start;
+  box-shadow: 0px 1px 20px -1px rgb(44, 44, 44);
 }
 main .containerNosotras {
   display: grid;
