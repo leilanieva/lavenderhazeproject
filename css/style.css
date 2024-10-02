@@ -124,6 +124,10 @@ main .formularios {
   align-items: center;
   text-align: center;
 }
+main .formLabelContacto {
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
 main .anchoFormulario {
   width: 25%;
 }
@@ -167,6 +171,10 @@ main .textoNosotras {
   margin: 170px auto;
   text-align: center;
   height: 200px;
+  border: solid 1px #734691;
+}
+main .textoNosotras p {
+  color: #f5ecda;
 }
 main .textoNosotras1 {
   background-image: linear-gradient(120deg, rgba(191, 136, 207, 0.8), rgba(255, 255, 255, 0)), linear-gradient(199deg, rgba(40, 148, 37, 0.8), rgba(255, 255, 255, 0)), linear-gradient(340deg, rgba(77, 0, 255, 0.8), rgba(255, 255, 255, 0));
@@ -176,15 +184,23 @@ main .textoNosotras1 {
   margin: 140px auto;
   text-align: center;
   height: 250px;
+  border: solid 1px #734691;
+}
+main .textoNosotras1 p {
+  color: #f5ecda;
 }
 main .textoNosotras2 {
   background-image: linear-gradient(120deg, rgba(191, 136, 207, 0.8), rgba(255, 255, 255, 0)), linear-gradient(199deg, rgba(40, 148, 37, 0.8), rgba(255, 255, 255, 0)), linear-gradient(340deg, rgba(77, 0, 255, 0.8), rgba(255, 255, 255, 0));
   border-radius: 15px;
+  border: solid 1px #734691;
   padding: 20px;
   width: 100%;
   margin: 150px auto;
   text-align: center;
   height: 300px;
+}
+main .textoNosotras2 p {
+  color: #f5ecda;
 }
 main .btn-custom {
   background-color: #32502a;
