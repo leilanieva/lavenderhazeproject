@@ -56,7 +56,7 @@ header .menuLinks li {
   margin-bottom: 0%;
   justify-items: center;
   color: #f5ecda;
-  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5), inset 0px -3px 6px -2px rgba(0, 0, 0, 0.3);
   border-radius: 30px;
   padding: 10px 20px;
   margin-top: 2%;
@@ -161,30 +161,26 @@ main .contact {
   margin-bottom: 2%;
 }
 main .textoNosotras {
-  background-color: #32502a;
+  background-image: linear-gradient(120deg, rgba(191, 136, 207, 0.8), rgba(255, 255, 255, 0)), linear-gradient(199deg, rgba(40, 148, 37, 0.8), rgba(255, 255, 255, 0)), linear-gradient(340deg, rgba(77, 0, 255, 0.8), rgba(255, 255, 255, 0));
   border-radius: 15px;
   padding: 20px;
-  border: 1px solid #32502a;
-  width: 100%;
   margin: 170px auto;
   text-align: center;
   height: 200px;
 }
 main .textoNosotras1 {
-  background-color: #32502a;
+  background-image: linear-gradient(120deg, rgba(191, 136, 207, 0.8), rgba(255, 255, 255, 0)), linear-gradient(199deg, rgba(40, 148, 37, 0.8), rgba(255, 255, 255, 0)), linear-gradient(340deg, rgba(77, 0, 255, 0.8), rgba(255, 255, 255, 0));
   border-radius: 15px;
   padding: 20px;
-  border: 1px solid #32502a;
   width: 100%;
   margin: 140px auto;
   text-align: center;
   height: 250px;
 }
 main .textoNosotras2 {
-  background-color: #32502a;
+  background-image: linear-gradient(120deg, rgba(191, 136, 207, 0.8), rgba(255, 255, 255, 0)), linear-gradient(199deg, rgba(40, 148, 37, 0.8), rgba(255, 255, 255, 0)), linear-gradient(340deg, rgba(77, 0, 255, 0.8), rgba(255, 255, 255, 0));
   border-radius: 15px;
   padding: 20px;
-  border: 1px solid #32502a;
   width: 100%;
   margin: 150px auto;
   text-align: center;
@@ -229,7 +225,7 @@ main .btn-custom:hover {
 }
 
 footer {
-  background-color: #32502a;
+  background-image: linear-gradient(120deg, rgba(191, 136, 207, 0.8), rgba(255, 255, 255, 0)), linear-gradient(199deg, rgba(40, 148, 37, 0.8), rgba(255, 255, 255, 0)), linear-gradient(340deg, rgba(77, 0, 255, 0.8), rgba(255, 255, 255, 0));
 }
 
 .textoFooter {
@@ -319,6 +315,8 @@ footer {
     font-family: "Dosis";
     flex-direction: column;
     text-align: center;
+    width: 50%;
+    margin-left: 25%;
   }
   header .menuLinks li {
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5), inset 0px -3px 6px -2px rgba(0, 0, 0, 0.3);
