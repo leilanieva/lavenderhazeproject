@@ -30,7 +30,7 @@ header{
         justify-content: flex-end;
         display: flex;
         width: 18%;
-        margin-left: 35%;
+        margin-left: 40%;
     }
     .menuLinks{ 
         list-style-type: none;
@@ -38,16 +38,16 @@ header{
         display: flex;
         flex-flow: row;
         margin: 0px;
-        font-size: 20px;
+        font-size: 16px;
         padding: 20px 10px;
-        margin-bottom: 1%;
+        margin-bottom: 0%;
         margin-top: 1%;       
         justify-content: center;
         justify-items: center;
         
     }
     .menuLinks li { 
-        margin: 20px 20px 20px 20px;
+        margin: 18px 18px 18px 18px;
         margin-bottom: 0%;
         justify-items: center;
         color: $colorfondo;
